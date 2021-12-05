@@ -1,0 +1,10 @@
+- 20/9/2021 - 0.2.0 - Completed HEADER section and its is COMPLETELY responsive
+- 20/9/2021 - 0.2.1 - Added the functionality to fetch member count without using discord.js and started working on about section, removed discord.js and axios
+- 21/9/21 - 0.2.2 - Enhanced changelog readability
+- 21/9/21 - 0.3.0 - Completed ABOUT US section and its is COMPLETELY responsive
+- 21/9/21 - 0.4.0 - Added Google Analytics and bunch of meta tags
+- 21/9/21 - 0.5.0 - Added a Footer and made it completely responsive 
+- 21/9/21 - 0.6.0 - Added Why Us section and fixed some typos.
+- 22/9/21 - 0.7.0 - Some tweaks in index.js and made appeal form ui and added functionality to pass data from frontend to backend. Also some tweaks in many places. Added footer in many places. *Cursing my team for not using reactjs*
+- 24/9/21 - 0.8.0 - Now user can submit appeal form and data is collected in backend and added partials
+- 28/9/21 - 0.9.0 - Fixed grammatical errors and typos.
