@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(cors())
-app.set('views', "./dist/views");
-app.set('public', "./dist/public");
+app.set('views', "./src/views");
+app.set('public', "./src/public");
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
