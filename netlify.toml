@@ -1,4 +1,4 @@
 [build]
-functions = "functions"
-[[redirects]]
-_redirects = "/*    /index.html    200"
+ functions = "functions"
+  command = "node ./build.js"
+  publish = "public"
