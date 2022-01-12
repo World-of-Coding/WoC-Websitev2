@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(cors())
-app.set('views', "./src/views");
+app.set('views', "./dist/src/views");
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -55,5 +55,6 @@ app.get("*", (req, res) => {
 app.use('/.netlify/functions/index', router)
 module.exports=app;
 module.exports.handler = serverless(app)
+
 
 
