@@ -54,7 +54,7 @@ app.get("*", (req, res) => {
 
 module.exports=app;
 module.exports.handler = serverless(app);
-app.use('/.netlify/functions/index', router);
+app.use('/.netlify/functions/api', router);
 
 
 
