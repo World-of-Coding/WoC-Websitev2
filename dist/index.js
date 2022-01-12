@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(cors())
-app.set('views', "./dist/src/views");
+app.set('views', "./dist/views");
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -52,9 +52,10 @@ app.get("*", (req, res) => {
     res.status(404).render('404');
 });
 
-app.use('/.netlify/functions/index', router)
 module.exports=app;
-module.exports.handler = serverless(app)
+module.exports.handler = serverless(app);
+app.use('/.netlify/functions/index', router);
+
 
 
 
