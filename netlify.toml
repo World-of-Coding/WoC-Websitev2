@@ -1,4 +1,4 @@
 [build]
 functions = "functions"
-
-/*    /index.html    200
+[[redirects]]
+_redirects = "/*    /index.html    200"
