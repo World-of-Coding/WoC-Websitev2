@@ -52,9 +52,9 @@ app.get("*", (req, res) => {
     res.status(404).render('404');
 });
 
-module.exports=app;
-module.exports.handler = serverless(app);
-app.use('/.netlify/functions/api', router);
+app.listen(port, () => {
+    console.log(`App is listening at http://localhost:${port}`);
+})
 
 
 
