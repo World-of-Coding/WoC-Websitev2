@@ -56,6 +56,4 @@ app.use('/.netlify/functions/index', router)
 module.exports=app;
 module.exports.handler = serverless(app)
 
-app.listen(port, () => {
-    console.log(`App is listening at http://localhost:${port}`);
-})
+
