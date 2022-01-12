@@ -14,6 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(cors())
 app.set('views', "./dist/views");
+app.set('public', "./dist/public");
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
