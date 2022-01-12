@@ -2,11 +2,10 @@
     "name": "woc-website",
     "version": "1.0.0",
     "description": "Woc website but better",
-    "main": "./src/index.js",
+    "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "./node_modules/.bin/netlify-lambda serve src",
-        "build": "./node_modules/.bin/netlify-lambda build src"
+        "start": "node ."
     },
     "repository": {
         "type": "git",

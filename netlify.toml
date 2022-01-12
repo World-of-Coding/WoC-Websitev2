@@ -1,4 +1,0 @@
-[build]
- functions = "functions"
-  command = "node ./build.js"
-  publish = "dist"

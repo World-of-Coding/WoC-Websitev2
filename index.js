@@ -1,5 +1,5 @@
 const express = require("express");
-const port = 3000;
+const port = 5500;
 const path = require("path");
 const bodyParser = require('body-parser')
 const cors = require('cors');
@@ -13,8 +13,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(cors())
-app.set('views', "./dist/views");
-app.set('public', "./dist/public");
+app.set('views', "views");
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -52,10 +51,13 @@ app.post('/submit', (req, res) => {
 app.get("*", (req, res) => {
     res.status(404).render('404');
 });
+;
 
-app.use('/.netlify/functions/index', router);
-module.exports.handler = serverless(app);
+//app.use('/.netlify/functions/index', router);
+//module.exports.handler = serverless(app
 
-
+app.listen(port, () => {
+    console.log(`App is listening at http://localhost:${port}`);
+})
 
 
