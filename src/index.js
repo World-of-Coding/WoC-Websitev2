@@ -46,18 +46,17 @@ app.post('/submit', (req, res) => {
     let data = req.body;
     startWork(data);
     res.send("Work Done");
-})
+});
+
+app.use('/.netlify/functions/index', router);
 
 app.get("*", (req, res) => {
     res.status(404).render('404');
 });
-;
-
-//app.use('/.netlify/functions/index', router);
-//module.exports.handler = serverless(app
 
 app.listen(port, () => {
     console.log(`App is listening at http://localhost:${port}`);
-})
+});
 
 
+module.exports.handler = serverless(app);
