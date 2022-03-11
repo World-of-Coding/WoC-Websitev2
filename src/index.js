@@ -1,12 +1,14 @@
 const express = require("express");
 const port = 3003;
 const bodyParser = require('body-parser');
+const cors = require("cors");
 
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+app.use(cors());
 app.set('views', "views");
 app.set("view engine", "ejs");
 app.engine("ejs", require("ejs").renderFile);
