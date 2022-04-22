@@ -8,4 +8,3 @@
 - 22/9/21 - 0.7.0 - Some tweaks in index.js and made appeal form ui and added functionality to pass data from frontend to backend. Also some tweaks in many places. Added footer in many places. *Cursing my team for not using reactjs*
 - 24/9/21 - 0.8.0 - Now user can submit appeal form and data is collected in backend and added partials
 - 28/9/21 - 0.9.0 - Fixed grammatical errors and typos.
-- 9/3/22 - 1.0.0 - Adjust code for using a container-based host (removing netlify)
