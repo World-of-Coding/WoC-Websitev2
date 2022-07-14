@@ -36,6 +36,10 @@ app.get("/bma-appeal", (req, res) => {
     res.render("bma");
 });
 
+app.get("/weather", (req, res) => {
+    res.render("weather");
+});
+
 const startWork = (dataObject) => {
     // Continue db loggings from here harry
 }
