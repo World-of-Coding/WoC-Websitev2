@@ -40,6 +40,10 @@ app.get("/weather", (req, res) => {
     res.render("weather");
 });
 
+app.get("/heartbeat", (req, res) => {
+    res.render("heartbeat");
+});
+
 const startWork = (dataObject) => {
     // Continue db loggings from here harry
 }
