@@ -275,9 +275,16 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0 0 35px #243b63;
 }
 
+
 .text {
     color: white;
   }
+
+/*.text-list {
+    color: white;
+    margin-top: 50%;
+}
+ */
 
   @media screen and (max-width: 1343px) {
     .text {
