@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SirLemons/WoC-website.git"
+        "url": "git+https://github.com/World-of-Coding/WoC-Websitev2.git"
     },
-    "author": "CAT Pengiun Harry",
+    "author": "Nick67644",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/SirLemons/WoC-website/issues"
+        "url": "https://github.com/World-of-Coding/WoC-Websitev2/issues"
     },
-    "homepage": "https://github.com/SirLemons/WoC-website#readme",
+    "homepage": "https://github.com/World-of-Coding/WoC-Websitev2/blob/master/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/README.md",
     "dependencies": {
         "body-parser": "^1.19.0",
         "cors": "^2.8.5",
