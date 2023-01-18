@@ -40,6 +40,14 @@ app.get("/weather", (req, res) => {
     res.render("weather");
 });
 
+app.get("/weather-pp", (req, res) => {
+    res.render("weatherpp");
+});
+
+app.get("/weather-tos", (req, res) => {
+    res.render("weathertos");
+});
+
 app.get("/heartbeat", (req, res) => {
     res.render("heartbeat");
 });
