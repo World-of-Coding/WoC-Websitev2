@@ -11,6 +11,8 @@ This website is using JavaScript as it's backend, using the EJS template engine 
 * Ban appeals
 * Marketplace blacklist appeals
 * Early Weather bot intro page
+    - Weather TOS
+    - Weather Privacy Policy 
 
 # To come:
 * Weather bot Privacy/TOS
