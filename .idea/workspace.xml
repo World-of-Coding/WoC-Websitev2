@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c1a852-0a54-4134-8ae7-79cdb61e9c2a" name="Changes" comment="Linking update&#10;&#10;- Heartbeat update&#10;- Index.js updated to port 5000 as default&#10;- Footer removed YT&#10;- Header removed YT">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WoC-Websitev2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/public/css/weatherpp.css" beforeDir="false" afterPath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/public/css/weatherpp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/views/weatherpp.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/views/weatherpp.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Riley\Desktop\WoC-Websitev2\WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Riley\Desktop\WoC-Websitev2" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -117,7 +117,9 @@
       <workItem from="1672556753589" duration="2708000" />
       <workItem from="1672598677294" duration="2309000" />
       <workItem from="1673366137810" duration="603000" />
-      <workItem from="1673451131346" duration="3685000" />
+      <workItem from="1673451131346" duration="5404000" />
+      <workItem from="1676046481477" duration="581000" />
+      <workItem from="1676255608025" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="Linking update&#10;&#10;- Heartbeat update&#10;- Index.js updated to port 5000 as default&#10;- Footer removed YT&#10;- Header removed YT">
       <created>1670607023545</created>
