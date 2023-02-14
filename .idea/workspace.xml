@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8c1a852-0a54-4134-8ae7-79cdb61e9c2a" name="Changes" comment="Linking update&#10;&#10;- Heartbeat update&#10;- Index.js updated to port 5000 as default&#10;- Footer removed YT&#10;- Header removed YT">
+    <list default="true" id="b8c1a852-0a54-4134-8ae7-79cdb61e9c2a" name="Changes" comment="- Weather bot Privacy Policy updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/public/css/weatherpp.css" beforeDir="false" afterPath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/public/css/weatherpp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/views/weatherpp.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/views/weatherpp.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/public/css/weathertos.css" beforeDir="false" afterPath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/public/css/weathertos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/views/weathertos.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/views/weathertos.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +119,7 @@
       <workItem from="1673366137810" duration="603000" />
       <workItem from="1673451131346" duration="5404000" />
       <workItem from="1676046481477" duration="581000" />
-      <workItem from="1676255608025" duration="1275000" />
+      <workItem from="1676255608025" duration="2096000" />
     </task>
     <task id="LOCAL-00001" summary="Linking update&#10;&#10;- Heartbeat update&#10;- Index.js updated to port 5000 as default&#10;- Footer removed YT&#10;- Header removed YT">
       <created>1670607023545</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670607347383</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- Weather bot Privacy Policy updated">
+      <created>1676347185578</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676347185578</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +189,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Linking update&#10;&#10;- Heartbeat update&#10;- Index.js updated to port 5000 as default&#10;- Footer removed YT&#10;- Header removed YT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linking update&#10;&#10;- Heartbeat update&#10;- Index.js updated to port 5000 as default&#10;- Footer removed YT&#10;- Header removed YT" />
+    <MESSAGE value="- Weather bot Privacy Policy updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Weather bot Privacy Policy updated" />
   </component>
 </project>
