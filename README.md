@@ -13,6 +13,7 @@ This website is using JavaScript as it's backend, using the EJS template engine 
 * Early Weather bot intro page
     - Weather TOS
     - Weather Privacy Policy 
+    - Weather 404
 
 # To come:
 * Weather bot Privacy/TOS
