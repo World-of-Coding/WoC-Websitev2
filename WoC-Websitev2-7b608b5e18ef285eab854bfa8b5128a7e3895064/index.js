@@ -2,6 +2,11 @@ const express = require("express");
 const port = 5000;
 const bodyParser = require('body-parser');
 const cors = require("cors");
+/* const Dweathertos = "weather-tos";
+const Dweatherpp = "weather-pp";
+const Dweather = "weather";
+ */
+
 
 const app = express();
 app.use(bodyParser.json());
@@ -48,9 +53,14 @@ app.get("/weather-tos", (req, res) => {
     res.render("weathertos");
 });
 
+app.get("/weather404", (req, res) => {
+    res.render("weather404");
+});
+
 app.get("/heartbeat", (req, res) => {
     res.render("heartbeat");
 });
+
 
 const startWork = (dataObject) => {
     // Continue db loggings from here harry
@@ -62,12 +72,18 @@ app.post('/submit', (req, res) => {
     res.send("Work Done");
 });
 
+
 app.get("*", (req, res) => {
-    res.status(404).render('404');
+    if (req.path === '/WoC-Websitev2-7b608b5e18ef285eab854bfa8b5128a7e3895064/views/weather404.ejs') {
+        res.redirect(301, '/weather404');
+    } else {
+        res.status(404).render('404');
+    }
 });
 
 app.listen(port, () => {
     console.log(`App is listening at http://localhost:${port}`);
 });
+
 
 
