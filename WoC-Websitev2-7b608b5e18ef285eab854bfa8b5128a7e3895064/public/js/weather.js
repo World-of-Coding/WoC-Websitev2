@@ -17,3 +17,6 @@ let man = document.getElementById("man");
 let year = new Date().getFullYear();
 
 man.innerHTML = `&copy; ${year} Copyright World of Coding`;
+
+
+
