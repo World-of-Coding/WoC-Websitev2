@@ -41,6 +41,10 @@ app.get("/bma-appeal", (req, res) => {
     res.render("bma");
 });
 
+app.get("/knowledge-role-application", (req, res) => {
+    res.render("knowledge");
+});
+
 app.get("/weather", (req, res) => {
     res.render("weather");
 });
