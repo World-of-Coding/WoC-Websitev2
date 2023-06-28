@@ -492,3 +492,9 @@ hr {
     }
 }
 
+a:hover {
+    outline: 2px solid var(--secondary-theme);
+    outline-offset: 3px;
+    border: none;
+    background: rgba(156, 179, 203, 0.8);
+}
